@@ -32,7 +32,7 @@
 ///     1 <= m + n <= 2000
 ///     -106 <= nums1[i], nums2[i] <= 106
 
-struct Solution;
+pub struct Solution;
 
 impl Solution {
     pub fn find_kth_sorted_arrays(mut nums1: &[i32], mut nums2: &[i32], mut k: usize) -> i32 {

@@ -28,7 +28,7 @@
 ///
 /// 输入: s = ""
 /// 输出: 0
-struct Solution;
+pub struct Solution;
 
 impl Solution {
     /// Complexity:

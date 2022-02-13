@@ -37,7 +37,7 @@ pub struct Solution;
 
 #[derive(PartialEq, Eq, Clone, Debug)]
 pub struct ListNode {
-    pub val: i32,median-of-two-sorted-arrays
+    pub val: i32,
     pub next: Option<Box<ListNode>>,
 }
 
@@ -88,24 +88,19 @@ impl Solution {
     }
 }
 
-macro_rules! list {
-    () => {
-        None
-    };
-    ($head:expr $(,$rest:expr)*) => {
-        {
-            Some(Box::new(ListNode {
-                val: $head,
-                next: list![$($rest),*],
-            }))
-        }
-    };
-}
-
 #[cfg(test)]
 mod tests {
     use super::*;
 
+    macro_rules! list {
+    () => { None };
+    ($head:expr $(,$rest:expr)*) => {{
+        Some(Box::new(ListNode {
+            val: $head,
+            next: list![$($rest),*],
+        }))
+    }};
+}
     #[test]
     fn test_example() {
         assert_eq!(
