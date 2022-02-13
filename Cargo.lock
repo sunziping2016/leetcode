@@ -23,6 +23,10 @@ name = "palindrome-number"
 version = "0.1.0"
 
 [[package]]
+name = "regular-expression-matching"
+version = "0.1.0"
+
+[[package]]
 name = "reverse-integer"
 version = "0.1.0"
 
