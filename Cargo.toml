@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "0001.two-sum.rust",
+    "0002.add-two-numbers.rust",
+    "0003.length-of-longest-substring.rust",
+    "0004.median-of-two-sorted-arrays.rust"
+]
