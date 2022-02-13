@@ -7,5 +7,6 @@ members = [
     "0005.longest-palindromic-substring.rust",
     "0006.zigzag-conversion.rust",
     "0007.reverse-integer.rust",
-    "0008.string-to-integer-atoi.rust"
+    "0008.string-to-integer-atoi.rust",
+    "0009.palindrome-number.rust"
 ]

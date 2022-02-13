@@ -19,6 +19,10 @@ name = "median-of-two-sorted-arrays"
 version = "0.1.0"
 
 [[package]]
+name = "palindrome-number"
+version = "0.1.0"
+
+[[package]]
 name = "reverse-integer"
 version = "0.1.0"
 

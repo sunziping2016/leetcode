@@ -10,5 +10,6 @@
 |   6 | [Z 字形变换](./0006.zigzag-conversion.rust/src/lib.rs)                     | 中等  | 独立完成 | Rust |      0 |    2.2 | O(n)          | O(n)  |
 |   7 | [整数反转](./0007.reverse-integer.rust/src/lib.rs)                         | 中等  | 独立完成 | Rust |      0 |    2.0 | O(n)          | O(1)  |
 |   8 | [字符串转换整数 (atoi)](./0008.string-to-integer-atoi.rust/src/lib.rs)        | 中等  | 独立完成 | Rust |      0 |    2.1 | O(n)          | O(1)  |
+|   9 | [回文数](./0009.palindrome-number.rust/src/lib.rs)                        | 简单  | 独立完成 | Rust |      0 |    1.9 | O(n)          | O(1)  |
 
 注：空间复杂度是说除去输出外额外的存储空间。

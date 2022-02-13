@@ -42,7 +42,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_works() {
+    fn test_example() {
         assert_eq!(Solution::my_atoi("42".into()), 42i32);
         assert_eq!(Solution::my_atoi("   -42".into()), -42i32);
         assert_eq!(Solution::my_atoi("4193 with words".into()), 4193i32);
