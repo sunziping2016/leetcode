@@ -3,5 +3,9 @@ members = [
     "0001.two-sum.rust",
     "0002.add-two-numbers.rust",
     "0003.length-of-longest-substring.rust",
-    "0004.median-of-two-sorted-arrays.rust"
+    "0004.median-of-two-sorted-arrays.rust",
+    "0005.longest-palindromic-substring.rust",
+    "0006.zigzag-conversion.rust",
+    "0007.reverse-integer.rust",
+    "0008.string-to-integer-atoi.rust"
 ]

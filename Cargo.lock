@@ -11,9 +11,25 @@ name = "length-of-longest-substring"
 version = "0.1.0"
 
 [[package]]
+name = "longest-palindromic-substring"
+version = "0.1.0"
+
+[[package]]
 name = "median-of-two-sorted-arrays"
 version = "0.1.0"
 
 [[package]]
+name = "reverse-integer"
+version = "0.1.0"
+
+[[package]]
+name = "string-to-integer-atoi"
+version = "0.1.0"
+
+[[package]]
 name = "two-sum"
+version = "0.1.0"
+
+[[package]]
+name = "zigzag-conversion"
 version = "0.1.0"
