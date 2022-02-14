@@ -59,16 +59,15 @@ impl Solution {
         // 3. run nfa
         let mut last = vec![0usize; nfa.len()];
         let mut states = vec![0usize];
-        let mut normalize_states = |states: &mut Vec<usize>, i: usize| {
+        let mut normalize_states = |states: Vec<usize>, i: usize| -> Vec<usize> {
             let mut result = Vec::new();
             states
                 .iter()
                 .for_each(|&state| normalize(&nfa, &mut result, state, &mut (i, &mut last)));
-            *states = result;
+            result
         };
         for (i, ch) in s.iter().copied().enumerate() {
-            normalize_states(&mut states, i + 1);
-            states = states
+            states = normalize_states(states, i + 1)
                 .into_iter()
                 .filter(|&state| match &nfa[state] {
                     State::Wildcard => true,
@@ -78,7 +77,8 @@ impl Solution {
                 .map(|state| state + 1)
                 .collect();
         }
-        normalize_states(&mut states, s.len() + 1);
-        states.into_iter().any(|state| state == nfa.len() - 1)
+        normalize_states(states, s.len() + 1)
+            .into_iter()
+            .any(|state| state == nfa.len() - 1)
     }
 }
