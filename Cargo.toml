@@ -9,5 +9,6 @@ members = [
     "0007.reverse-integer.rust",
     "0008.string-to-integer-atoi.rust",
     "0009.palindrome-number.rust",
-    "0010.regular-expression-matching.rust"
+    "0010.regular-expression-matching.rust",
+    "0011.container-with-most-water.rust",
 ]
