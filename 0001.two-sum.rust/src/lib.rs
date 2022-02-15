@@ -8,7 +8,7 @@ impl Solution {
     /// - Time: O(n)
     /// - Space: O(n)
     ///
-    /// Another solution is to sort the array and use binary search, of which
+    /// Another solution is to sort the array and use double pointers of which
     /// the complexity is:
     /// - Time: O(n log n)
     /// - Space: O(1)
