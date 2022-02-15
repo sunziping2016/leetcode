@@ -525,6 +525,10 @@ name = "three-sum"
 version = "0.1.0"
 
 [[package]]
+name = "three-sum-closest"
+version = "0.1.0"
+
+[[package]]
 name = "tinytemplate"
 version = "1.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"

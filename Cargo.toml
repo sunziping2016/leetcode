@@ -14,5 +14,6 @@ members = [
     "0012.integer-to-roman.rust",
     "0013.roman-to-integer.rust",
     "0014.longest-common-prefix.rust",
-    "0015.3sum.rust"
+    "0015.3sum.rust",
+    "0016.3sum-closest.rust",
 ]
