@@ -13,4 +13,5 @@ members = [
     "0011.container-with-most-water.rust",
     "0012.integer-to-roman.rust",
     "0013.roman-to-integer.rust",
+    "0014.longest-common-prefix.rust",
 ]

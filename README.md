@@ -15,5 +15,6 @@
 |   11 | [盛最多水的容器](./0011.container-with-most-water.rust/src/lib.rs)                 | 中等 | 复习完成 | Rust |        8 |      3.0 | O(n)          | O(1)                       |
 |   12 | [整数转罗马数字](./0012.integer-to-roman.rust/src/lib.rs)                          | 中等 | 独立完成 | Rust |        4 |      2.0 | O(n)          | O(1)                       |
 |   13 | [罗马数字转整数](./0013.roman-to-integer.rust/src/lib.rs)                          | 简单 | 独立完成 | Rust |        0 |      2.1 | O(n)          | O(1)                       |
+|   14 | [最长公共前缀](./0014.longest-common-prefix.rust/src/lib.rs)                       | 简单 | 独立完成 | Rust |        0 |      2.1 | O(mn)         | O(1)                       |
 
 注：空间复杂度是说除去输出外额外的存储空间。
