@@ -201,6 +201,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "integer-to-roman"
+version = "0.1.0"
+
+[[package]]
 name = "itertools"
 version = "0.10.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"

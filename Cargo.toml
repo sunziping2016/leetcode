@@ -11,4 +11,5 @@ members = [
     "0009.palindrome-number.rust",
     "0010.regular-expression-matching.rust",
     "0011.container-with-most-water.rust",
+    "0012.integer-to-roman.rust",
 ]
