@@ -19,5 +19,6 @@
 |   15 | [**三数之和**](./0015.3sum.rust/src/lib.rs)                                        | 中等 | 查看题解 | Rust |       20 |      3.4 | O(n^2)          | O(log n)                   |
 |   16 | [**最接近的三数之和**](./0016.3sum-closest.rust/src/lib.rs)                        | 中等 | 查看题解 | Rust |        0 |      2.1 | O(n^2)          | O(log n)                   |
 |   17 | [电话号码的字母组合](./0017.letter-combinations-of-a-phone-number.rust/src/lib.rs) | 中等 | 独立完成 | Rust |        0 |      2.2 | O(3^n) ~ O(4^n) | O(1)                       |
+|   18 | [四数之和](./0018.4sum.rust/src/lib.rs)                                            | 中等 | 独立完成 | Rust |       16 |      4.8 | O(n^2)          | O(n^2)                     |
 
 注：空间复杂度是说除去输出外额外的存储空间。

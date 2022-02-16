@@ -17,4 +17,5 @@ members = [
     "0015.3sum.rust",
     "0016.3sum-closest.rust",
     "0017.letter-combinations-of-a-phone-number.rust",
+    "0018.4sum.rust",
 ]
