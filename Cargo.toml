@@ -22,4 +22,5 @@ members = [
     "0020.valid-parentheses.rust",
     "0021.merge-two-sorted-lists.rust",
     "0022.generate-parentheses.rust",
+    "0023.merge-k-sorted-lists.rust",
 ]
