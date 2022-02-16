@@ -59,14 +59,15 @@ mod tests {
     use super::*;
 
     macro_rules! list {
-    () => { None };
-    ($head:expr $(,$rest:expr)*) => {{
-        Some(Box::new(ListNode {
-            val: $head,
-            next: list![$($rest),*],
-        }))
-    }};
-}
+        () => { None };
+        ($head:expr $(,$rest:expr)*) => {{
+            Some(Box::new(ListNode {
+                val: $head,
+                next: list![$($rest),*],
+            }))
+        }};
+    }
+
     #[test]
     fn test_example() {
         assert_eq!(
