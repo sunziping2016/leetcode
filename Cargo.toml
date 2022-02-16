@@ -19,4 +19,5 @@ members = [
     "0017.letter-combinations-of-a-phone-number.rust",
     "0018.4sum.rust",
     "0019.remove-nth-node-from-end-of-list.rust",
+    "0020.valid-parentheses.rust",
 ]
