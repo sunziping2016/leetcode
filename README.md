@@ -23,7 +23,7 @@
 |   19 | [删除链表的倒数第 N 个结点](./0019.remove-nth-node-from-end-of-list.rust/src/lib.rs) | 中等 | 独立完成 | Unsafe Rust |        0 |      1.9 | O(1)            | O(1)                       |
 |   20 | [有效的括号](./0020.valid-parentheses.rust/src/lib.rs)                               | 简单 | 独立完成 | Rust        |        0 |      2.0 | O(n)            | O(n)                       |
 |   21 | [合并两个有序链表](./0021.merge-two-sorted-lists.rust/src/lib.rs)                    | 简单 | 独立完成 | Rust        |        0 |      2.1 | O(m+n)          | O(1)                       |
-|   22 | [](./0022..rust/src/lib.rs)                                                          | 中等 |          | Rust        |          |          |                 |                            |
+|   22 | [括号生成](./0022.generate-parentheses.rust/src/lib.rs)                              | 中等 | 独立完成 | Rust        |        0 |      2.2 | O(2^n)          | O(2^n)                     |
 |   23 | [](./0023..rust/src/lib.rs)                                                          | 中等 |          | Rust        |          |          |                 |                            |
 
 注：空间复杂度是说除去输出外额外的存储空间。
