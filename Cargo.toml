@@ -20,4 +20,5 @@ members = [
     "0018.4sum.rust",
     "0019.remove-nth-node-from-end-of-list.rust",
     "0020.valid-parentheses.rust",
+    "0021.merge-two-sorted-lists.rust",
 ]
