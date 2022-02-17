@@ -25,6 +25,7 @@
 |   21 | [合并两个有序链表](./0021.merge-two-sorted-lists.rust/src/lib.rs)                    | 简单 | 独立完成 | Rust        |        0 |      2.1 | O(m+n)          | O(1)                   |
 |   22 | [括号生成](./0022.generate-parentheses.rust/src/lib.rs)                              | 中等 | 独立完成 | Rust        |        0 |      2.2 | O(2^n)          | O(2^n)                 |
 |   23 | [合并K个升序链表](./0023.merge-k-sorted-lists.rust/src/lib.rs)                       | 困难 | 独立完成 | Rust        |        4 |      3.0 | O(kn log k)     | O(1)                   |
-|   24 | [](./0024..rust/src/lib.rs)                                                          | 中等 |          | Rust        |          |          |                 |                        |
+|   24 | [两两交换链表中的节点](./0024.swap-nodes-in-pairs.rust/src/lib.rs)                   | 中等 | 独立完成 | Rust        |        0 |      2.0 | O(n)            | O(1)                   |
+|   25 | [](./0025..rust/src/lib.rs)                                                          | 中等 |          | Rust        |          |          |                 |                        |
 
 注：空间复杂度是说除去输出外额外的存储空间。
