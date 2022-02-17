@@ -25,4 +25,5 @@ members = [
     "0023.merge-k-sorted-lists.rust",
     "0024.swap-nodes-in-pairs.rust",
     "0025.reverse-nodes-in-k-group.rust",
+    "0026.remove-duplicates-from-sorted-array.rust",
 ]
