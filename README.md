@@ -27,7 +27,8 @@
 |   23 | [合并k个升序链表](./0023.merge-k-sorted-lists.rust/src/lib.rs)                       | 困难 | 独立完成 | rust        |        4 |      3.0 | o(kn log k)     | o(1)                   |
 |   24 | [两两交换链表中的节点](./0024.swap-nodes-in-pairs.rust/src/lib.rs)                   | 中等 | 独立完成 | rust        |        0 |      2.0 | o(n)            | o(1)                   |
 |   25 | [k 个一组翻转链表](./0025.reverse-nodes-in-k-group.rust/src/lib.rs)                  | 困难 | 独立完成 | rust        |        0 |      2.3 | O(n)            | O(1)                   |
-|   26 | [删除有序数组中的重复项](./0026.remove-duplicates-from-sorted-array.rust/src/lib.rs) | 简单 |          | rust        |          |          |                 |                        |
+|   26 | [删除有序数组中的重复项](./0026.remove-duplicates-from-sorted-array.rust/src/lib.rs) | 简单 | 独立完成 | rust        |        0 |      2.2 | O(n)            | O(1)                   |
+|   28 | [](./0028..rust/src/lib.rs)                                                          | 中等 |          | rust        |          |          |                 |                        |
 |   27 | [](./0027..rust/src/lib.rs)                                                          | 中等 |          | rust        |          |          |                 |                        |
 
 注：空间复杂度是说除去输出外额外的存储空间。
