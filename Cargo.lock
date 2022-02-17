@@ -439,6 +439,10 @@ name = "remove-duplicates-from-sorted-array"
 version = "0.1.0"
 
 [[package]]
+name = "remove-element"
+version = "0.1.0"
+
+[[package]]
 name = "remove-nth-node-from-end-of-list"
 version = "0.1.0"
 

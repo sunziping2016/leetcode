@@ -22,10 +22,10 @@ mod tests {
     #[test]
     fn test_example() {
         let mut nums = vec![1, 1, 2];
-        Solution::remove_duplicates(&mut nums);
+        assert_eq!(Solution::remove_duplicates(&mut nums), 2);
         assert_eq!(&nums[..2], &[1, 2]);
         let mut nums = vec![0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-        Solution::remove_duplicates(&mut nums);
+        assert_eq!(Solution::remove_duplicates(&mut nums), 5);
         assert_eq!(&nums[..5], &[0, 1, 2, 3, 4]);
     }
 }
