@@ -24,4 +24,5 @@ members = [
     "0022.generate-parentheses.rust",
     "0023.merge-k-sorted-lists.rust",
     "0024.swap-nodes-in-pairs.rust",
+    "0025.reverse-nodes-in-k-group.rust",
 ]

@@ -30,6 +30,8 @@ impl ListNode {
 //     }
 //   }
 // }
+//
+
 impl Solution {
     pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         let head = ListNode { val: 0, next: head };
