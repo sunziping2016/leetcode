@@ -14,6 +14,7 @@
 #include <cctype>
 #include <climits>
 #include <cmath>
+#include <cstddef>
 #include <cstring>
 
 #include <gtest/gtest.h>

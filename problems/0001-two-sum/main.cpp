@@ -3,10 +3,10 @@
 class Solution {
 public:
   vector<int> twoSum(vector<int> &nums, int target) {
-    for (int i = 0; i < nums.size(); ++i) {
-      for (int j = i + 1; j < nums.size(); ++j) {
+    for (size_t i = 0; i < nums.size(); ++i) {
+      for (size_t j = i + 1; j < nums.size(); ++j) {
         if (nums[i] + nums[j] == target) {
-          return {i, j};
+          return {static_cast<int>(i), static_cast<int>(j)};
         }
       }
     }

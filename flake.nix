@@ -36,6 +36,8 @@
         inputs.git-hooks.flakeModule
         inputs.treefmt-nix.flakeModule
         ./nix/devshell.nix
+        ./nix/pre-commit.nix
+        ./nix/treefmt.nix
       ];
       systems = import inputs.systems;
     };
