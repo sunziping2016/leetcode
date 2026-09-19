@@ -19,8 +19,6 @@ if(BUILD_TESTING)
     set(target_name "${problem_name}-test")
 
     add_executable("${target_name}" "${source_file}")
-    target_include_directories("${target_name}"
-                               PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/include")
     target_link_libraries("${target_name}" PRIVATE GTest::gtest_main)
 
     if(MSVC)
