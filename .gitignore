@@ -1,0 +1,13 @@
+# direnv
+.direnv
+.data
+
+# devshell
+result
+result-*
+.pre-commit-config.yaml
+
+# cpp
+build
+cmake-build-*
+.cache
